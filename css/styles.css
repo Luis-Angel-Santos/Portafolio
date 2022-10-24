@@ -58,7 +58,7 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    url();
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -269,13 +269,13 @@ html{
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
+.skills .skill .angular{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s angular forwards;
 }
-@keyframes javascript {
+@keyframes angular {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 89%;}
 }
 
 .skills .skill .htmlcss{
@@ -287,31 +287,31 @@ html{
     100%{width: 89%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .github{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s github forwards;
 }
-@keyframes photoshop {
+@keyframes github {
     0%{width: 0%;}
     100%{width: 95%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .javascript{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s javascript forwards;
 }
-@keyframes wordpress {
+@keyframes javascript {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 80%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .typescript{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s typescript forwards;
 }
-@keyframes drupal {
+@keyframes typescript {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .comunicacion{
@@ -329,7 +329,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 91%;}
 }
 
 .skills .skill .creatividad{
@@ -338,7 +338,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .dedicacion{
@@ -347,7 +347,7 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 92%;}
 }
 
 .skills .skill .proyect{
@@ -356,7 +356,7 @@ html{
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 89%;}
 }
 /* SECCION PORTFOLIO */
 .portfolio{
