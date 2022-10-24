@@ -58,7 +58,7 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url();
+    url(../assets/img/fondo.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -126,6 +126,7 @@ html{
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 .sobremi .contenido-seccion p span{
     color: #6aa9e9;
@@ -358,6 +359,11 @@ html{
     0%{width: 0%;}
     100%{width: 89%;}
 }
+
+.cv-5{
+    text-decoration: none;
+    color: #fff;
+}
 /* SECCION PORTFOLIO */
 .portfolio{
     background-color: #252A2E;
@@ -376,8 +382,10 @@ html{
 }
 /* SECCION CONTACTO */
 .contacto{
-    /*background-image: url(img/contact_bg.png);*/
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1));
+    background-image: url(../assets/img/fondo_contacto.png);
     background-color: #1e2326;
+    background-size: cover;
     color: #fff;
     padding: 50px 0;
 }
@@ -482,6 +490,11 @@ footer .redes a{
     font-size: 20px;
     transition: .3s;
 }
+
+footer .redes a:hover{
+    background-color: #6aa9e9;
+}
+
 footer .arriba{
     display: block;
     width: 50px;
