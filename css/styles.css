@@ -241,6 +241,33 @@ html {
     width: 100%;
 }
 
+.contenedor-skills2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor-skills2 .interes{
+    
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.contenedor-skills2 .interes:hover{
+    background-color: #6aa9e9;
+}
+
+.contenedor-skills2 .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
 .skills {
     background-color: #252A2E;
     color: #fff;
